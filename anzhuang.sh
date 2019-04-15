@@ -6,7 +6,7 @@ cd nginx-1.12.2
 make && make install
 ln -s /data/nginx/sbin/nginx /sbin
 cd ..
-#php1
+#php
 yum -y install openldap-devel
 yum -y install freetype-devel
 yum -y install libpng-devel
